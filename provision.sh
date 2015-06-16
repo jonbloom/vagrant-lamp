@@ -29,8 +29,6 @@ apt-get -y install build-essential binutils-doc git apache2
 
 
 # Cleanup the default HTML file created by Apache
-rm -rf /var/www/html
-
 cd /var/www/
 git clone http://stash.jon.tw:7990/scm/ps/jon.tw.git html
 
